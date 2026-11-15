@@ -38,11 +38,51 @@
             </button>
 
             <!-- Burger -->
-            <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+         <!--   <button style="background: black; padding: 10%; border-radius:  50px!important;"  class="menu-btn" id="menuBtn" aria-label="Open menu">
                 <span></span>
                 <span></span>
                 <span></span>
-            </button>
+            </button>  -->
+
+
+<!-- Neon Burger -->
+<button class="neon-burger"  id="menuBtn" aria-label="Open menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+<!--#080d0b;-->
+<style>
+.neon-burger {
+    background: black;
+    padding: 12px;
+    border-radius: 50px;
+    border: 1px solid #9cffb5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(156,255,181,.3);
+    transition: .3s ease;
+}
+
+.neon-burger span {
+    width: 23px;
+    height: 2px;
+    background: #9cffb5;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #9cffb5;
+    transition: .3s ease;
+}
+
+.neon-burger:hover {
+    box-shadow: 0 0 5px #9cffb5;
+    transform: scale(1.08);
+}
+</style>
+
 
         </div>
 
@@ -50,7 +90,7 @@
 
 
     <!-- MOBILE MENU -->
-    <nav class="mobile-menu" id="mobileMenu">
+    <nav style="background: black;" class="mobile-menu" id="mobileMenu">
 
         <a href="#home">Home</a>
         <a href="#portfolio">Portfolio</a>
@@ -127,9 +167,16 @@
                         01
                     </div>
 
-                    <div class="project-icon">
-                        &lt;/&gt;
+                     <div  style="background: black; padding: 10%;  border-radius:  50px!important;" class="project-icon">
+                        <img style="width: 40px; height: 40px;!important"  src="images/css1.png" alt="CSS Icon">
                     </div>
+
+
+			<!-- PROJECT ICON -->
+		<!--	<div class="project-icon">
+    			<img src="images/css1.png" alt="CSS Icon">
+			</div>  -->
+
 
                     <h3>
                         PROJECT HTML
@@ -164,8 +211,8 @@
                         02
                     </div>
 
-                    <div class="project-icon">
-                        ◈
+                    <div style="background: black; padding: 10%; border-radius:  50px!important;" class="project-icon">
+                         ❖
                     </div>
 
                     <h3>
@@ -205,7 +252,7 @@
                         03
                     </div>
 
-                    <div class="project-icon">
+                    <div style="background: black; padding: 10%; border-radius:  50px!important;" class="project-icon">
                         ⚡
                     </div>
 
@@ -245,7 +292,7 @@
                         04
                     </div>
 
-                    <div class="project-icon">
+                    <div style="background: black; padding: 10%; border-radius:  50px!important;" class="project-icon">
                         ⚡
                     </div>
 
@@ -285,7 +332,7 @@
                         05
                     </div>
 
-                    <div class="project-icon">
+                    <div style="background: black; padding: 10%; border-radius:  50px!important;" class="project-icon">
                         ⚡
                     </div>
 
@@ -326,7 +373,7 @@
                         06
                     </div>
 
-                    <div class="project-icon">
+                    <div style="background: black; padding: 10%; border-radius:  50px!important;" class="project-icon">
                         ⚡
                     </div>
 
@@ -366,7 +413,7 @@
                         07
                     </div>
 
-                    <div class="project-icon">
+                    <div style="background: black; padding: 10%; border-radius:  50px!important;" class="project-icon">
                         ⚡
                     </div>
 
@@ -407,8 +454,12 @@
                         08
                     </div>
 
-                    <div class="project-icon">
+                <!--    <div style="background: black; padding: 10%; border-radius:  50px!important;" class="project-icon">
                         ⚡
+                    </div>  -->
+
+			<div  style="background: black; padding: 10%;  border-radius:  50px!important;" class="project-icon">
+                        <img style="width: 40px; height: 40px;!important"  src="images/csharp1.png" alt="CSS Icon">
                     </div>
 
                     <h3>
@@ -447,7 +498,7 @@
                         09
                     </div>
 
-                    <div class="project-icon">
+                    <div style="background: black; padding: 10%; border-radius:  50px!important;" class="project-icon">
                         ⚡
                     </div>
 
@@ -487,7 +538,7 @@
                         10
                     </div>
 
-                    <div class="project-icon">
+                    <div style="background: black; padding: 10%; border-radius:  50px!important;" class="project-icon">
                         ⚡
                     </div>
 
@@ -527,7 +578,7 @@
                         11
                     </div>
 
-                    <div class="project-icon">
+                    <div style="background: black; padding: 10%; border-radius:  50px!important;" class="project-icon">
                         ⚡
                     </div>
 
@@ -567,7 +618,7 @@
                         12
                     </div>
 
-                    <div class="project-icon">
+                    <div style="background: black; padding: 10%; border-radius:  50px!important;" class="project-icon">
                         ⚡
                     </div>
 
@@ -625,6 +676,14 @@
                     technologies.
                 </p>
 
+		<p>
+			Aspiring to join a forward-thinking
+			company as a Software Engineer
+			to contribute to a team driven
+			environment by delivering robust,
+			high- quality software solutions.
+		</p>
+
             </div>
 
         </section>
@@ -676,17 +735,25 @@
                 </p>
 
                 <h2>
-                    Building ideas into
-                    <span>digital experiences.</span>
+                    Clark College
+                    <span>2023 -2024 (Undergrad)</span>
                 </h2>
 
-                <p>
-                    I'm Gerald Dela Cruz, a developer and technology
-                    enthusiast who enjoys creating projects,
-                    experimenting with ideas and learning new
-                    technologies.
-                </p>
+                <p>Associate in Computer Technology Technology</p><br><br>
+		
+		<h2>
+                    Jose C. Feliciano College Foundation
+                    <span>2014-2015 (Undergrad)</span>
+                </h2>
 
+                <p>Bachelor of Science in Marine Transportation</p><br><br>
+
+		<h2>
+                    Secondary
+                    <span>2012-2013</span>
+                </h2>
+
+                <p>Mabalacat National High School</p>
             </div>
 
         </section>
